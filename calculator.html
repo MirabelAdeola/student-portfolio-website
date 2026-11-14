@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Simple Calculator | Ogechi Mirabel Egemoluoha</title>
+
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <header>
+        <nav class="navbar">
+
+            <div class="logo">
+                Ogechi Mirabel Egemoluoha
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/about.html">About Me</a></li>
+                <li><a href="/projects.html">Projects</a></li>
+                <li><a href="/planner.html">Academic Planner</a></li>
+                <li><a href="/calculator.html" class="active">Calculator</a></li>
+                <li><a href="/contact.html">Contact</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+
+    <!-- Calculator Introduction -->
+    <section class="calculator-hero">
+
+        <h1>Simple Calculator</h1>
+
+        <p>
+            A basic calculator built with HTML, CSS and JavaScript.
+            Perform simple mathematical calculations with ease.
+        </p>
+
+    </section>
+
+
+    <!-- Calculator Section -->
+    <main class="calculator-section">
+
+        <div class="calculator">
+
+            <h2>My Calculator</h2>
+
+            <!-- Calculator Display -->
+            <input
+                type="text"
+                id="calculatorDisplay"
+                placeholder="0"
+                readonly
+            >
+
+            <!-- Calculator Buttons -->
+            <div class="calculator-buttons">
+
+                <button class="clear-btn" data-action="clear">AC</button>
+                <button data-action="delete">DEL</button>
+                <button data-value="/">÷</button>
+                <button data-value="*">×</button>
+
+                <button data-value="7">7</button>
+                <button data-value="8">8</button>
+                <button data-value="9">9</button>
+                <button data-value="-">−</button>
+
+                <button data-value="4">4</button>
+                <button data-value="5">5</button>
+                <button data-value="6">6</button>
+                <button data-value="+">+</button>
+
+                <button data-value="1">1</button>
+                <button data-value="2">2</button>
+                <button data-value="3">3</button>
+                <button class="equal-btn" data-action="calculate">=</button>
+
+                <button data-value="0">0</button>
+                <button data-value=".">.</button>
+
+            </div>
+
+        </div>
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer>
+
+        <p>
+            &copy; 2026 Ogechi Mirabel Egemoluoha.
+            All Rights Reserved.
+        </p>
+
+    </footer>
+
+
+    <script src="/js/script.js"></script>
+
+</body>
+
+</html>
