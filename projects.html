@@ -30,7 +30,6 @@
                 <li><a href="about.html">About Me</a></li>
                 <li><a href="projects.html" class="active">Projects</a></li>
                 <li><a href="planner.html">Academic Planner</a></li>
-                <li><a href="calculator.html" >Calculator</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
 
@@ -170,7 +169,7 @@
                         </div>
 
                         <span class="project-status">
-                            <a href="calculator.html" class="project-link">Try Calculator</a>
+                            <a href="#calculator-demo" class="project-link">Try Calculator</a>
                         </span>
 
                     </div>
@@ -178,13 +177,44 @@
                 </article>
 
 
-            </div>
+           </div>
 
-        </section>
+<!-- INTERACTIVE CALCULATOR -->
+<section class="calculator-section" id="calculator-demo">
+    <div class="calculator">
+        <h2>Try My Calculator</h2>
 
+        <input type="text" id="calculatorDisplay" placeholder="0" readonly>
 
-        <!-- CLOSING SECTION -->
-        <section class="projects-banner">
+        <div class="calculator-buttons">
+            <button class="clear-btn" data-action="clear">AC</button>
+            <button data-action="delete">DEL</button>
+            <button data-value="/">÷</button>
+            <button data-value="*">×</button>
+
+            <button data-value="7">7</button>
+            <button data-value="8">8</button>
+            <button data-value="9">9</button>
+            <button data-value="-">−</button>
+
+            <button data-value="4">4</button>
+            <button data-value="5">5</button>
+            <button data-value="6">6</button>
+            <button data-value="+">+</button>
+
+            <button data-value="1">1</button>
+            <button data-value="2">2</button>
+            <button data-value="3">3</button>
+            <button class="equal-btn" data-action="calculate">=</button>
+
+            <button data-value="0">0</button>
+            <button data-value=".">.</button>
+        </div>
+    </div>
+</section>
+
+</section>
+<section class="projects-banner">
 
             <h2>Learning, Creating and Growing.</h2>
 
